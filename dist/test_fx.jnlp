@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="test_fx.jnlp">
+  <information>
+    <title>test_fx</title>
+    <vendor>MAROUANE</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\richtextfx-demos-fat-0.6.10.jar" size="785927" download="eager" />
+    <jar href="test_fx.jar" size="46720" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="test_fx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="test_fx.Test_fx"  name="test_fx" />
+  <update check="always"/>
+</jnlp>
